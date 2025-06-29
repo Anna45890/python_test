@@ -16,7 +16,6 @@ while attempts < 10:
         print("Число слишком маленькое.")
     else:
         print("Поздравляю! Вы угадали число!")
-        att_num.append(attempts)
         print(f"Количество попыток: {attempts}")
         break
 else:
